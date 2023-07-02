@@ -18,7 +18,7 @@ It should include the following elements -
 
 3. Basics of navigation and control 
 
-## General guidance and recomendations 
+## General guidance and recommendations 
 
 1. use gazebo classic 11 (it will be the easiest and will serve the matter of the exercise).
 
@@ -86,7 +86,7 @@ Now most of our systems use ardupilot to drive the vehicles, as a matter of prin
 
 https://github.com/SwiftGust/ardupilot_gazebo
 
-This may take some trial and error, so don't give up and enjoy the fun  
+This may take some trial and error, so don't give up !  
 
 2. Make sure you can control it with sitl through mavlink - to ease things up use a GCS or mavproxy to send commands for the relevant rc_channels commands. If you have a joystick, it might be nice to connect it and use it to teleoperate.  
 
@@ -94,7 +94,7 @@ This may take some trial and error, so don't give up and enjoy the fun
 
 ros2_teleop_node --> twist command --> mavros --> mavlink rc_channels command --> gazebo 
 
-If you're up to it, you may (and it is welcome) to use mavros. It certaintly might be half baked so writing yourself a little code with pymavlink and connect it to ROS2 is more than welcome.
+If you're up to it, you may (and it is welcome) to use mavros. It certaintly might be half baked so writing yourself a little code with pymavlink and connect it to ROS2 is also alright.
 
 ## Important general resources for this exercise: 
 
